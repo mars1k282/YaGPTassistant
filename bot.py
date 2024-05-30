@@ -52,8 +52,8 @@ class TelegramBot:
 
 if __name__ == '__main__':
     db = Database()
-    token = '6767105262:AAH1GgUdi-d5sCfn6tC9iQUsND50Kz04u1Y'
-    folder_id = 'b1g7kf5832146qiiqus9'
-    iam_token = 't1.9euelZqKi4yXx5qek5yeic3Kj5POk-3rnpWai5XLkcvGzMiblJyKlM2UmZjl8_cGIyNN-e8eDXwa_t3z90ZRIE357x4NfBr-zef1656VmoydjZyekJSKlY3MjcuXz46P7_zF656VmoydjZyekJSKlY3MjcuXz46PveuelZrLzJPLks-czpSNnZqYx8uVi7XehpzRnJCSj4qLmtGLmdKckJKPioua0pKai56bnoue0oye.AOscdi_C_eCWwvY5ugeHMcPdyovFYRU8NdOsRhcyvlaPvHO3zlYxfA1abG2gO2dxbtDzubZJVqLiW9c-HG9lDA'
+    token = ''
+    folder_id = ''
+    iam_token = ''
     bot = TelegramBot(token, folder_id, iam_token, db)
     bot.run()
